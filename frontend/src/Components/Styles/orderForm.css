@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    width: calc(100% - 22px); 
+}
+
+button {
+    align-self: flex-start;
+    margin-top: 10px;
+}
